@@ -6,7 +6,7 @@
 
 **AI Engineer | ML Developer | Product Builder**
 
-🌍 Based in UAE | Final Year B.Tech @ Karunya Institute  
+🌍 Based in UAE | Data Engineer @ Express Analytics   
 🎯 Specializing in agentic platforms, enterprise ML, and cloud deployment
 
 </div>
@@ -65,10 +65,10 @@
 ---
 
 ## 🌐 Connect
+<div align="center">
 
-- [Website](https://ajmalaksar.vercel.app/)
-- [LinkedIn](https://www.linkedin.com/in/ajmalaksar/)
-- [Mail](mailto:ajmalaksar25@gmail.com)
+[Website](https://ajmalaksar.vercel.app/) | [LinkedIn](https://www.linkedin.com/in/ajmalaksar/) | [Mail](mailto:ajmalaksar25@gmail.com)
+</div>
 
 ---
 
