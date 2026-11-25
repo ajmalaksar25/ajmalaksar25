@@ -1,31 +1,37 @@
-# Ajmal Aksar
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img alt="I build AI agents and the tools around them. Agents, evals, MCP servers, data, voice, apps." src="assets/header-light.svg" width="100%">
+</picture>
 
-I'm a Senior AI/ML Engineer at [Express Analytics](https://expressanalytics.com) in the UAE. Most of my time goes into [kAInet](https://expressanalytics.com/agentic-ai), our agentic AI platform that plans ad campaigns with marketers and launches them to Google and Meta.
+**[Now](#now)** · **[Built](#built)** · **[Writing](#writing)** · **[Elsewhere](#elsewhere)**
 
-I think most of the reliability in an agent system comes from the harness and the evals around the model, because a good harness works with whichever model you pass it. This account holds the open-source libraries and small tools I build on my own time, and my work code lives on [@ajmal-ea](https://github.com/ajmal-ea).
+Senior AI/ML Engineer at [Express Analytics](https://expressanalytics.com), in the UAE. I spend most of my time on the harness and evals around agents, because that is where their reliability comes from.
 
-## Public projects
+## Now
 
-| Project | What it does |
-|---|---|
-| [gsab](https://github.com/ajmalaksar25/gsab) | Turns Google Sheets into a backend with schemas, validation, field encryption, async CRUD and a CLI. It also ships an MCP server with access-policy guardrails, so an agent can use a sheet as a database without being able to do anything destructive by default. It's on [PyPI](https://pypi.org/project/gsab/), the docs are at [gsab.ajmalaksar.com](https://gsab.ajmalaksar.com), and there is an early JavaScript client in [gsab-js](https://github.com/ajmalaksar25/gsab-js). |
-| [Claude Usage Dashboard](https://github.com/ajmalaksar25/claude-usage-dashboard) | A local dashboard and CLI that indexes Claude Code, Codex CLI and Pi sessions and prices them at API rates. I built it because I wanted real numbers on whether the subscription was worth it, without uploading my transcripts anywhere. |
-| [Searchlight](https://github.com/ajmalaksar25/searchlight) | A technical-SEO agent served as an MCP server, with docs at [searchlight.ajmalaksar.com](https://searchlight.ajmalaksar.com). It reads Search Console and Analytics, fixes what's broken in your repo, deploys, and checks that the fix is live. It's still a work in progress. |
-| [kNavigate](https://github.com/ajmalaksar25/kNavigate) | A Flutter GPS audio tour of the Karunya campus, built on the open-source TourForge engine. The map works offline, and the tour content updates over the air from Cloudflare R2. |
+- **[kAInet](https://expressanalytics.com/agentic-ai)** · agents that plan Google and Meta ad campaigns with marketers, and launch them
+- **[Vara](https://vara.ajmalaksar.com)** · a whiteboard you talk to, in five languages
+- **[Zawaaj](https://zawaaj.in)** · invitations for weddings with many events
 
-I also keep my agent skills as plain `SKILL.md` files in [skills](https://github.com/ajmalaksar25/skills), starting with one that hands a long conversation over to a fresh session. Outside the public repos, I'm building [Zawaaj](https://zawaaj.in) for multi-event wedding invitations, and testing [Vara](https://vara.ajmalaksar.com), a whiteboard you talk to, which is behind a couple of my recent posts.
+## Built
+
+- **[gsab](https://github.com/ajmalaksar25/gsab)** · Google Sheets as a backend, with an MCP server for agents. On [PyPI](https://pypi.org/project/gsab/).
+- **[Claude Usage Dashboard](https://github.com/ajmalaksar25/claude-usage-dashboard)** · what your Claude Code usage would cost at API rates, worked out on your machine
+- **[Searchlight](https://github.com/ajmalaksar25/searchlight)** · an SEO agent that fixes your site and checks the fix is live. Still in progress.
+- **[skills](https://github.com/ajmalaksar25/skills)** · my agent skills, as plain `SKILL.md` files
+- **[kNavigate](https://github.com/ajmalaksar25/kNavigate)** · an offline GPS audio tour of the Karunya campus
 
 ## Writing
 
-I write about what actually breaks when you build with agents and speech pipelines, mainly because my first guess at the cause is often wrong once I check the logs.
+- **[One WER number hides everything](https://ajmalaksar.vercel.app/blog/one-wer-number-hides-everything)** · zero errors in the eval, and an empty board in one language
+- **[The 504 that was never a timeout](https://ajmalaksar.vercel.app/blog/the-504-that-was-never-a-timeout)** · four 504s, not seventy-five, and the cause was my own code
+- **[82 finals for 41 utterances](https://ajmalaksar.vercel.app/blog/82-finals-for-41-utterances)** · a double click that started two transcribers
+- **[I talk to my computer](https://ajmalaksar.vercel.app/blog/i-talk-to-my-computer-613k-words)** · 613k dictated words, counted
 
-- [One WER number hides everything](https://ajmalaksar.vercel.app/blog/one-wer-number-hides-everything)
-- [The 504 that was never a timeout](https://ajmalaksar.vercel.app/blog/the-504-that-was-never-a-timeout)
-- [I talk to my computer: 613k words since April](https://ajmalaksar.vercel.app/blog/i-talk-to-my-computer-613k-words)
-- [Was Claude Max worth it? I built a dashboard to stop guessing.](https://ajmalaksar.vercel.app/blog/claude-usage-dashboard)
-
-The rest are on [my blog](https://ajmalaksar.vercel.app/blog).
+More on [my blog](https://ajmalaksar.vercel.app/blog).
 
 ## Elsewhere
 
-You can find me on [my website](https://ajmalaksar.vercel.app), [LinkedIn](https://www.linkedin.com/in/ajmalaksar/) and [X](https://x.com/ajmalaksar). If you work on agent harnesses or evals and want to compare notes, a DM on X is the easiest way to reach me.
+[Website](https://ajmalaksar.vercel.app) · [LinkedIn](https://www.linkedin.com/in/ajmalaksar/) · [X](https://x.com/ajmalaksar)
+
+Working on agents or evals? A DM on X is the easiest way to reach me.
