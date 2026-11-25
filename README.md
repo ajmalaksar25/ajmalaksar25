@@ -1,76 +1,31 @@
-<!-- Ajmal Aksar | ajmalaksar25 -->
+# Ajmal Aksar
 
-<div align="center">
+I'm a Senior AI/ML Engineer at [Express Analytics](https://expressanalytics.com) in the UAE. Most of my time goes into [kAInet](https://expressanalytics.com/agentic-ai), our agentic AI platform that plans ad campaigns with marketers and launches them to Google and Meta.
 
-# 👋 Hi, I'm Ajmal Aksar
+I think most of the reliability in an agent system comes from the harness and the evals around the model, because a good harness works with whichever model you pass it. This account holds the open-source libraries and small tools I build on my own time, and my work code lives on [@ajmal-ea](https://github.com/ajmal-ea).
 
-**AI Engineer | ML Developer | Product Builder**
+## Public projects
 
-🌍 Based in UAE | Data Engineer @ Express Analytics   
-🎯 Specializing in agentic platforms, enterprise ML, and cloud deployment
+| Project | What it does |
+|---|---|
+| [gsab](https://github.com/ajmalaksar25/gsab) | Turns Google Sheets into a backend with schemas, validation, field encryption, async CRUD and a CLI. It also ships an MCP server with access-policy guardrails, so an agent can use a sheet as a database without being able to do anything destructive by default. It's on [PyPI](https://pypi.org/project/gsab/), the docs are at [gsab.ajmalaksar.com](https://gsab.ajmalaksar.com), and there is an early JavaScript client in [gsab-js](https://github.com/ajmalaksar25/gsab-js). |
+| [Claude Usage Dashboard](https://github.com/ajmalaksar25/claude-usage-dashboard) | A local dashboard and CLI that indexes Claude Code, Codex CLI and Pi sessions and prices them at API rates. I built it because I wanted real numbers on whether the subscription was worth it, without uploading my transcripts anywhere. |
+| [Searchlight](https://github.com/ajmalaksar25/searchlight) | A technical-SEO agent served as an MCP server, with docs at [searchlight.ajmalaksar.com](https://searchlight.ajmalaksar.com). It reads Search Console and Analytics, fixes what's broken in your repo, deploys, and checks that the fix is live. It's still a work in progress. |
+| [kNavigate](https://github.com/ajmalaksar25/kNavigate) | A Flutter GPS audio tour of the Karunya campus, built on the open-source TourForge engine. The map works offline, and the tour content updates over the air from Cloudflare R2. |
 
-</div>
+I also keep my agent skills as plain `SKILL.md` files in [skills](https://github.com/ajmalaksar25/skills), starting with one that hands a long conversation over to a fresh session. Outside the public repos, I'm building [Zawaaj](https://zawaaj.in) for multi-event wedding invitations, and testing [Vara](https://vara-flax.vercel.app), a whiteboard you talk to, which is behind a couple of my recent posts.
 
----
+## Writing
 
-## 🚀 What I Do
+I write about what actually breaks when you build with agents and speech pipelines, mainly because my first guess at the cause is often wrong once I check the logs.
 
-- **AI & ML Product Development**: Design, deploy & scale machine learning platforms for business.
-- **Agentic Automation**: Recently built an Agentic Marketing Platform (alpha) automating end-to-end Google Ad campaigns from research to execution.
-- **Data Engineering**: Scalable pipelines, MLOps, cloud orchestration (AWS, GCP, Docker).
-- **Research & Innovation**: Integrate LLMs, vector databases, and advanced analytics into real-world systems.
+- [One WER number hides everything](https://ajmalaksar.vercel.app/blog/one-wer-number-hides-everything)
+- [The 504 that was never a timeout](https://ajmalaksar.vercel.app/blog/the-504-that-was-never-a-timeout)
+- [I talk to my computer: 613k words since April](https://ajmalaksar.vercel.app/blog/i-talk-to-my-computer-613k-words)
+- [Was Claude Max worth it? I built a dashboard to stop guessing.](https://ajmalaksar.vercel.app/blog/claude-usage-dashboard)
 
----
+The rest are on [my blog](https://ajmalaksar.vercel.app/blog).
 
-## 🛠️ Tech Stack
+## Elsewhere
 
-<div align="center">
-
-![Python](https://img.shields.io/badge/python-3776AB.svg?&logo=python&logoColor=ffdd54)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?&logo=TensorFlow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?&logo=pytorch&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?&logo=fastapi)
-![Docker](https://img.shields.io/badge/Docker-2496ED?&logo=docker&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-013243?&logo=mlflow&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?&logo=amazonaws)
-![GCP](https://img.shields.io/badge/GCP-F9AB00?&logo=googlecloud)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?&logo=supabase&logoColor=white)
-</div>
-
----
-
-## 💡 Featured Projects
-
-- **Agentic Marketing Platform (2025)**  
-  Alpha, automating end-to-end ad campaign workflow for Google Ads—LLM-driven content, research, launch.
-
-- **Oyster CIP Platform**  
-  Automated customer profiling with LLMs & data pipelines for marketing analytics.
-
-- **LLM Optimization**  
-  Leveraged OpenVINO toolkit for high-efficiency model deployment.
-
-- **Enterprise ML Dashboards**  
-  Real-time business intelligence solutions deployed in the cloud.
-
----
-
-## 📚 Leadership & Impact
-
-- Secretary - Association of Technology Oriented Minds (ATOM) at Karunya Institute of Technology and Sciences
-- Division Coordinator – MindKraft 2024 (National Tech Fest)
-- Joint Secretary – Association of Technology Oriented Minds (ATOM) at Karunya Institute of Technology and Sciences
-- Organizer – 5+ technical workshops & hackathons
-
----
-
-## 🌐 Connect
-<div align="center">
-
-[Website](https://ajmalaksar.vercel.app/) | [LinkedIn](https://www.linkedin.com/in/ajmalaksar/) | [Mail](mailto:ajmalaksar25@gmail.com)
-</div>
-
----
-
-> *Building agentic AI platforms | Open to collaborations & new opportunities!*
-
+You can find me on [my website](https://ajmalaksar.vercel.app), [LinkedIn](https://www.linkedin.com/in/ajmalaksar/) and [X](https://x.com/ajmalaksar). If you work on agent harnesses or evals and want to compare notes, a DM on X is the easiest way to reach me.
