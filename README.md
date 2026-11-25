@@ -13,7 +13,7 @@ I think most of the reliability in an agent system comes from the harness and th
 | [Searchlight](https://github.com/ajmalaksar25/searchlight) | A technical-SEO agent served as an MCP server, with docs at [searchlight.ajmalaksar.com](https://searchlight.ajmalaksar.com). It reads Search Console and Analytics, fixes what's broken in your repo, deploys, and checks that the fix is live. It's still a work in progress. |
 | [kNavigate](https://github.com/ajmalaksar25/kNavigate) | A Flutter GPS audio tour of the Karunya campus, built on the open-source TourForge engine. The map works offline, and the tour content updates over the air from Cloudflare R2. |
 
-I also keep my agent skills as plain `SKILL.md` files in [skills](https://github.com/ajmalaksar25/skills), starting with one that hands a long conversation over to a fresh session. Outside the public repos, I'm building [Zawaaj](https://zawaaj.in) for multi-event wedding invitations, and testing [Vara](https://vara-flax.vercel.app), a whiteboard you talk to, which is behind a couple of my recent posts.
+I also keep my agent skills as plain `SKILL.md` files in [skills](https://github.com/ajmalaksar25/skills), starting with one that hands a long conversation over to a fresh session. Outside the public repos, I'm building [Zawaaj](https://zawaaj.in) for multi-event wedding invitations, and testing [Vara](https://vara.ajmalaksar.com), a whiteboard you talk to, which is behind a couple of my recent posts.
 
 ## Writing
 
